@@ -3,8 +3,8 @@ const app = express();
 
 app.get("/",(req,res)=>{
     res.json({
-        message: "ket noi server thanh cong",
-        data:" hello Nguyen Van Thanh"
+        message: "connection server sucessfully",
+        data:" hello các bạn"
     })
 })
 
