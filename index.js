@@ -7,7 +7,7 @@ app.get("/",(req,res)=>{
         data:" hello các bạn"
     })
 })
-app.getet("/ahi",(req,res)=>{
+app.get("/ahi",(req,res)=>{
     res.json({
         message: "connection server sucessfully",
         data:"helo Nguyễn Thị Lan Anh"
